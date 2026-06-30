@@ -12,6 +12,19 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Docker
+docker-compose.override.yml
+
+# Java build artifacts
+*.class
+*.jar
+*.war
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
